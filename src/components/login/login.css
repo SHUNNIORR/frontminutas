@@ -1,0 +1,50 @@
+.card-login{
+    width: 30%;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+.btn-submit{
+    margin-top:20px;
+    width: 300px;
+}
+.submit-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-login{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 123, 255 , 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    margin-top: 10px;
+}
+
+.form-group > label{
+    margin-bottom: 10px;
+}
+
+.card-header{
+    background-color: royalblue;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contendor-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
