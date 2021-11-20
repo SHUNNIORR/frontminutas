@@ -9,6 +9,9 @@ export const Routes = () => {
             <Switch>
                 <Route exact path="/" component={LoginPage}/>
                 <Route exact path="/admin" component={AdminPage}/>
+                <Route exact path="/registrar" component={AdminPage}/>
+                <Route exact path="/minutas" component={AdminPage}/>
+                <Route exact path="/administracion" component={AdminPage}/>
             </Switch>
         </BrowserRouter>
     )
